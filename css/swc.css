@@ -26,6 +26,17 @@ h2 code, h3 code, h4 code, h5 code, h6 code {
     font-size: inherit;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+    width: 100%;	
+}
+td, th {
+    border-top: 1px solid #ddd;
+    padding: 4px 8px;
+}
+
 /* Objectives, Callout Box, Challenges and prerequisites are now rendered as
 Bootstrap panels.  There's a pandoc error with rendering headers nested under
 blockquote: these headers don't preserve attributes.  It means we have to
